@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Dat514</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="intro-overlay">
+        <div id="continue-text">Click to Continue</div>
+    </div>
+    <div class="background-overlay"></div>
+    <div class="dark-overlay"></div>
+    <div class="volume-control">
+        <button class="volume-toggle unmute"></button>
+        <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+    </div>
+    <div class="container">
+        <div class="eye-container">
+            <div class="eye">
+                <div class="pupil"></div>
+            </div>
+            <div class="view-counter"><span id="view-count">0</span></div>
+        </div>
+        <img src="profile_pic.jpg" alt="Hình Ảnh Hồ Sơ">
+        <h1>Dat514</h1>
+        <p class="description">☭USSR-CCCP☭</p>
+        <div id="typewriter"></div>
+        <div class="social-icons">
+            <a href="https://x.com/Dattd514" target="_blank">
+                <img src="x.png" alt="X" class="social-logo">
+            </a>
+            <a href="https://github.com/dat514" target="_blank">
+                <img src="github.png" alt="GitHub" class="social-logo">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100067602314903" target="_blank">
+                <img src="facebook.png" alt="Facebook" class="social-logo">
+            </a>
+            <a href="https://tiktok.com/@datd514" target="_blank">
+                <img src="tiktok.png" alt="TikTok" class="social-logo">
+            </a>
+        </div>
+        <div id="discord-status">Trạng Thái: Chưa kết nối</div>
+    </div>
+    <audio id="background-music" loop>
+        <source src="background_music.mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ âm thanh.
+    </audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
