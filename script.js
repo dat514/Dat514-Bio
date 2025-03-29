@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('DOMContentLoaded triggered'); 
 
     var typed = new Typed('#typewriter', {
-        strings: ["The environment is everything that isn’t me"],
+        strings: ["Union of Soviet Socialist Republics"],
         typeSpeed: 100,
         showCursor: false
     });
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             intervalId = setInterval(updateTimePlayed, 1000);
                         }
                     } else if (status !== 'offline') {
-                        output += `<p>Không chơi game</p>`;
+                        output += `<p>Không Có Hoạt Động Nào</p>`;
                     }
                     output += `</div>`;
 
