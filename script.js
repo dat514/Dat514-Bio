@@ -62,9 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    let viewCount = ???;
+    let viewCount = 124;
     try {
-        viewCount = parseInt(localStorage.getItem('pageViews')) || ???;
+        viewCount = parseInt(localStorage.getItem('pageViews')) || 124;
         if (!localStorage.getItem('viewCounted')) {
             viewCount++;
             localStorage.setItem('pageViews', viewCount);
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     } catch (error) {
         console.error('Lỗi khi truy cập localStorage:', error.message);
-        viewCount = ???; 
+        viewCount = 124; 
     }
     document.getElementById('view-count').textContent = viewCount;
 
